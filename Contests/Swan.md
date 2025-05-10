@@ -1,3 +1,7 @@
+## Platform : Codehawks
+
+## Severity : Low
+
 ## Title
 
 Lack of Input Validation in `request()` function in the LLMOracleCoordinator.sol Weakening Proof-of-Work Security
