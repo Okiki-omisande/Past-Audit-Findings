@@ -1,3 +1,6 @@
+## Platform : Codehawks
+
+## Severity : Low
 
 ## Title
 Incorrect Event Emission in `SetSlippage()` Causing Misrepresentation of Updated Slippage Value
