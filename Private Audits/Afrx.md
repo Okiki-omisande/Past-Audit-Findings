@@ -8,9 +8,8 @@ Critical
 
 ## Classification
 
-Business Logic Error
-Access Control Issue
-Financial Impact
+- Business Logic Error
+- Financial Impact
 
 ## Affected Contract : 
 
@@ -182,7 +181,7 @@ Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 6.70ms (2.76ms CPU 
 
 - 90% of token holders receive zero dividends
 - 45% of dividend tokens are incorrectly distributed
-- Only DEFAULT_ADMIN_ROLE holders
+- Only investors with DEFAULT_ADMIN_ROLE holders receives shares
 
 ## Recommended Fix
 ``` solidity
@@ -245,11 +244,11 @@ The fix implements a snapshot-based dividend system where:
 
 ## References
 
-Project documentation stating dividend policy
-OpenZeppelin's ERC20Snapshot implementation
-Security token dividend distribution best practices
+- Project documentation stating dividend policy
+- OpenZeppelin's ERC20Snapshot implementation
+- Security token dividend distribution best practices
 
 ## Timeline
 
-Found: [5/16/2025]
-Reported: [5/16/2025]
+- Found: [5/16/2025]
+- Reported: [5/16/2025]
